@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/styles-CKAnpNmY.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-BrddEoy-.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/styles-Dwq4-NRs.css">
   </head>
   <body>
     <header class="header">
@@ -38,7 +40,10 @@
         <input type="text" id="search-input" class="search-input" placeholder="Search images...">
         <button id="search-button" class="search-button">Search</button>
     </div>
-    <div id="media-div" class="media-div">Loading images, please wait...</div>
+    <div id="loading-spinner" class="hidden">
+        <div class="spinner"></div>
+      </div>
+    <ul id="gallery" class="gallery"></ul>
 </section>
 
     </main>
