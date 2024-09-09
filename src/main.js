@@ -1,6 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import 'iziToast/dist/css/iziToast.min.css'; 
 import iziToast from 'izitoast';
 
 const searchInput = document.getElementById('search-input');
